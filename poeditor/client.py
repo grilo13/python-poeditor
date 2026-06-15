@@ -579,8 +579,6 @@ class POEditorAPI(object):
         project_id = str(project_id)
 
         kwargs = {}
-        if tags:
-            kwargs['tags'] = tags
         if read_from_source is not None:
             kwargs['read_from_source'] = read_from_source
         if type is not None:

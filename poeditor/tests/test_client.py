@@ -229,7 +229,8 @@ class TestClient(unittest.TestCase):
             file_path=self.file_path,
             language_code='fr',
             overwrite=True,
-            sync_terms=True
+            sync_terms=True,
+            tags=["project1", "green"]
         )
 
         expected_dict = {
